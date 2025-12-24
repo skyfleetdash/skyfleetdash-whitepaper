@@ -12,7 +12,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/shafimsp/skyfleetdash-whitepaper',
   footer: {
-    text: 'Skyfleet Dash',
+    content: 'Skyfleet Dash',
   },
 }
 
