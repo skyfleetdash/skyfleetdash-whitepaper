@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@source inline("dark:block", "dark:hidden");
+
+/* Optional: import Nextra theme styles */
+@import 'nextra-theme-docs/style.css';
+ 
+/* @variant dark (&:where(.dark, .dark *)); */
+@custom-variant dark (&:where(.dark, .dark *));
+
+.dark .x\:dark\:hidden {
+  @apply hidden;
+}
+
+.dark .x\:dark\:block {
+  @apply block;
+}
