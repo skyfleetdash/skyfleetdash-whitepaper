@@ -13,17 +13,6 @@ export const metadata = {
     template: '%s | SkyFleet Dash',
   },
   description: 'SkyFleet Dash - The ultimate play-to-earn drone racing platform on BNB Smart Chain',
-  openGraph: {
-    title: 'SkyFleet Dash',
-    description: 'The ultimate play-to-earn drone racing platform on BNB Smart Chain',
-    images: ['/img/logo-dark.png'],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'SkyFleet Dash',
-    description: 'The ultimate play-to-earn drone racing platform on BNB Smart Chain',
-    images: ['/img/logo-dark.png'],
-  },
 }
 
 const Logo = (
