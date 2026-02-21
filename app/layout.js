@@ -8,6 +8,7 @@ import logoDark from '@/public/img/logo-dark.png'
 // import 'nextra-theme-docs/style.css';
 
 export const metadata = {
+  metadataBase: new URL('https://whitepaper.skyfleetdash.com'),
   title: {
     default: 'SkyFleet Dash',
     template: '%s | SkyFleet Dash',
