@@ -1,0 +1,12 @@
+# Deflationary Mechanism - Burn Tax
+
+SFDT implements a **2% automatic burn tax** on every token transfer, hardcoded into the smart contract (`burnTax = 20/1000`). This means:
+
+- Every trade, transfer, conversion, or payment in SFDT permanently removes 2% of the transferred amount from total supply
+- The burn is automatic and cannot be bypassed or modified — it is immutable in the contract code
+- Over time, this creates continuous deflationary pressure, reducing total supply and increasing scarcity
+- Certain addresses (presale contract, PancakeSwap router/LP pair) will be excluded from burn tax to enable proper market functioning
+
+**Contract Address:** `0x1765B7f9ddB4d64761216c4eC22D7901Fa3cf5fB` (BNB Smart Chain)
+
+**Vesting Factory:** `0xC708D6192eE83B08b08e1aafD781E1b21a20d86c`
