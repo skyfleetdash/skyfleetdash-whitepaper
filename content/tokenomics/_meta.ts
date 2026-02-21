@@ -1,4 +1,4 @@
-export default {
+const meta = {
   index: 'What is SFDT?',
   'use-cases': 'Use Cases',
   'deflationary-mechanism': 'Deflationary Mechanism',
@@ -7,3 +7,5 @@ export default {
   'token-value': 'Token Value Management',
   'revenue-model': 'Revenue Model',
 }
+
+export default meta

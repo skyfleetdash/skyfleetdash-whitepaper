@@ -1,7 +1,9 @@
-export default {
+const meta = {
   index: 'Game Modes',
   'expanded-options': 'Expanded Options',
   'sky-tracks': 'Sky Tracks',
   'asset-marketplace': 'Asset Marketplace',
   'enhanced-creation': 'Enhanced Creation',
 }
+
+export default meta

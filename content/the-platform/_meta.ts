@@ -1,4 +1,4 @@
-export default {
+const meta = {
   index: 'Mission',
   ecosystem: 'The Ecosystem',
   avatar: 'Avatar',
@@ -6,3 +6,5 @@ export default {
   'revenue-streams': 'Revenue Streams',
   benefits: 'Benefits',
 }
+
+export default meta

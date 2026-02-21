@@ -1,4 +1,4 @@
-export default {
+const meta = {
   index: 'Introduction',
   'executive-summary': 'Executive Summary',
   'history-background': 'History & Background',
@@ -8,3 +8,5 @@ export default {
   tokenomics: 'Tokenomics',
   roadmap: 'Roadmap',
 }
+
+export default meta
