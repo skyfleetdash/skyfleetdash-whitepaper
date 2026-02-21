@@ -8,8 +8,22 @@ import logoDark from '@/public/img/logo-dark.png'
 // import 'nextra-theme-docs/style.css';
 
 export const metadata = {
-  // Define your metadata here
-  // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
+  title: {
+    default: 'SkyFleet Dash',
+    template: '%s | SkyFleet Dash',
+  },
+  description: 'SkyFleet Dash - The ultimate play-to-earn drone racing platform on BNB Smart Chain',
+  openGraph: {
+    title: 'SkyFleet Dash',
+    description: 'The ultimate play-to-earn drone racing platform on BNB Smart Chain',
+    images: ['/img/logo-dark.png'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SkyFleet Dash',
+    description: 'The ultimate play-to-earn drone racing platform on BNB Smart Chain',
+    images: ['/img/logo-dark.png'],
+  },
 }
 
 const Logo = (
