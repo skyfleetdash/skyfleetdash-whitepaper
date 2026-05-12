@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Next.js 15.3.2 documentation site for "Skyfleet Dash Tokenomics" using Nextra 4.2.17 as the documentation framework. The site uses MDX for content and includes features like dark mode support and search functionality via Pagefind.
+This is a Next.js 15.3.2 documentation site for "SkyFleetDash Tokenomics" using Nextra 4.2.17 as the documentation framework. The site uses MDX for content and includes features like dark mode support and search functionality via Pagefind.
 
 ## Development Commands
 

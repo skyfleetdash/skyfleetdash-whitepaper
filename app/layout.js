@@ -10,35 +10,35 @@ import logoDark from '@/public/img/logo-dark.png'
 export const metadata = {
   metadataBase: new URL('https://whitepaper.skyfleetdash.com'),
   title: {
-    default: 'SkyFleet Dash',
-    template: '%s | SkyFleet Dash',
+    default: 'SkyFleetDash',
+    template: '%s | SkyFleetDash',
   },
-  description: 'SkyFleet Dash - The ultimate play-to-earn drone racing platform on BNB Smart Chain',
+  description: 'SkyFleetDash - The ultimate play-to-earn drone racing platform on BNB Smart Chain',
 }
 
 const Logo = (
   <div className="">
     <Image
       src={logoDark}
-      alt="Skyfleet Dash Logo"
+      alt="SkyFleetDash Logo"
       className="max-h-5 w-auto hidden dark:flex"
     />
    <Image
       src={logoLight}
-      alt="Skyfleet Dash Logo"
+      alt="SkyFleetDash Logo"
       className="max-h-5 w-auto inline-flex dark:hidden"
     />
   </div>
 )
  
-// const banner = <Banner storageKey="some-key">Skyfleet Dash 2.0 is released 🎉</Banner>
+// const banner = <Banner storageKey="some-key">SkyFleetDash 2.0 is released 🎉</Banner>
 const navbar = (
   <Navbar
     logo={Logo}
     // ... Your additional navbar options
   />
 )
-const footer = <Footer>© {new Date().getFullYear()} Skyfleet Dash. All rights reserved.</Footer>
+const footer = <Footer>© {new Date().getFullYear()} SkyFleetDash. All rights reserved.</Footer>
  
 export default async function RootLayout({ children }) {
   return (
